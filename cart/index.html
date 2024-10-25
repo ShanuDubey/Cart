@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">My Shop</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="cart-icon">🛒</div>
+    </header>
+
+    <div class="container">
+        <h1>Your Cart</h1>
+        <div class="cart-content">
+            <div id="cart-items" class="cart-items"></div>
+            <div class="cart-totals">
+                <h2>Cart Totals</h2>
+                <div class="subtotal">
+                    <span>Subtotal:</span>
+                    <span id="subtotal-price">₹0.00</span>
+                </div>
+                <div class="total">
+                    <span>Total:</span>
+                    <span id="total-price">₹0.00</span>
+                </div>
+                <button id="checkout-button">Check Out</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-icons">
+            <div>High Quality</div>
+            <div>Warranty Protection</div>
+            <div>24/7 Support</div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
